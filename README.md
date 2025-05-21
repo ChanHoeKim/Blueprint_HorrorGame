@@ -1,5 +1,7 @@
+<플레이 영상_사망>
 https://github.com/user-attachments/assets/735ac9b8-49ab-46e7-b44b-df35ca2850a4
 
+<플레이 영상_스킵_엔딩>
 
 ## 게임명 : Backroom
 #### 1인칭 스토리 호러 게임
