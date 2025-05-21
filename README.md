@@ -59,11 +59,11 @@ https://github.com/user-attachments/assets/735ac9b8-49ab-46e7-b44b-df35ca2850a4
 1. 기본 이동은 AI 이동과 동일
 2. 내적을 사용한 시야 판정
 3. Collision 시 사망 연출 >> 모든 Enemy 오브젝트의 공격(플레이어 사망) 연출 동일
-  ##### Enemy와 Player 충돌
-  ##### Audio Component 재생하여 웃음소리 재생
-      ##### Player 시야 View에서 Enemy 정면 View로 이동할 때 TimeLine을 통해 천천히 이동 구현
-      ##### Enemy 정면 View로 이동한 화면을 Lerp를 통해 Player에게 다가가는 연출 구현 
-      #####위젯 애니메이션과 버튼을 통해 Game Over 연출 및 Restart 버튼 활성화 (Restart 버튼 클릭 시 맨 처음 Backroom 레벨에서 시작)
+  -  Enemy와 Player 충돌
+  -  Audio Component 재생하여 웃음소리 재생
+  -  Player 시야 View에서 Enemy 정면 View로 이동할 때 TimeLine을 통해 천천히 이동 구현
+  -  Enemy 정면 View로 이동한 화면을 Lerp를 통해 Player에게 다가가는 연출 구현 
+  -  위젯 애니메이션과 버튼을 통해 Game Over 연출 및 Restart 버튼 활성화 (Restart 버튼 클릭 시 맨 처음 Backroom 레벨에서 시작)
 
 #### DontMove Enemy 구현
 - AI Move 및 PawnSinsing 등을 통해 AI 움직임 구현
