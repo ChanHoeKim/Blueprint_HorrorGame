@@ -46,23 +46,20 @@ https://github.com/user-attachments/assets/735ac9b8-49ab-46e7-b44b-df35ca2850a4
 - Enemy와 Player가 충돌하면 View Target 변경
   1. 타임라인과 Lerp를 활용하여 화면 전환
 
-AI 구현
-Idle 및 Run 애니메이션 연결
-언리얼에서 제공하는 AI 무브 및 Pawn Sensing 기능을 활용하여
-Player가 탐지되면 추적하도록 구현
+#### AI 구현
+- Idle 및 Run 애니메이션 연결
+- 언리얼에서 제공하는 AI 무브 및 Pawn Sensing 기능을 활용하여 Player가 탐지되면 추적하도록 구현
 
-SCP173 구현
-1차 구현(실수로 파일을 삭제하여 다시 구현)
-기본 이동은 AI 이동과 동일
-Player 화면에 해당 Enemy가 랜더링 시 움직임 정지
-           >> Was Actor Recently Rendered 이벤트를 활용
+#### SCP173 구현
+- 1차 구현(실수로 파일을 삭제하여 다시 구현)
+1. 기본 이동은 AI 이동과 동일
+2. Player 화면에 해당 Enemy가 랜더링 시 움직임 정지 >> Was Actor Recently Rendered 이벤트를 활용
 
-다른 방법으로 2차 구현
-기본 이동은 AI 이동과 동일
-내적을 사용한 시야 판정
-Collision 시 사망 연출
->> 모든 Enemy 오브젝트의 공격(플레이어 사망) 연출 동일
-Enemy와 Player 충돌
+- 다른 방법으로 2차 구현
+1. 기본 이동은 AI 이동과 동일
+2. 내적을 사용한 시야 판정
+3. Collision 시 사망 연출 >> 모든 Enemy 오브젝트의 공격(플레이어 사망) 연출 동일
+  1. Enemy와 Player 충돌
 Audio Component 재생하여 웃음소리 재생
 Player 시야 View에서 Enemy 정면 View로 이동할 때 TimeLine을 통해 천천히 이동 구현
 Enemy 정면 View로 이동한 화면을 Lerp를 통해 Player에게 다가가는 연출 구현 
