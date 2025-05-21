@@ -69,7 +69,7 @@ https://github.com/user-attachments/assets/735ac9b8-49ab-46e7-b44b-df35ca2850a4
 - AI Move 및 PawnSinsing 등을 통해 AI 움직임 구현
 - Player와 충돌 시 위젯을 통해 “Don’t Move”라는 문구가 정면에 뜨면 5초 동안 움직이면 안 되도록 구현(움직이면 Player 사망)
 - 5초가 지나면 해당 몬스터는 사라짐(Don’t Move 문구 또한 사라짐)
-
+---
 
 ### 맵 에셋 선택
 
@@ -89,7 +89,7 @@ https://github.com/user-attachments/assets/735ac9b8-49ab-46e7-b44b-df35ca2850a4
 - 벽에 Graffiti 부착(간접적으로 탈출 방법 소개)
 - 나레이션 및 자막을 적용하고 Data Table을 통해 동기화
 - AmbientSound를 통해 BGM 적용
-
+---
 ### 기타 기능 구현
 #### Enemy 발소리 구현
 - Walk 애니메이션에서 발이 지면에 닿을 때 발자국 사운드 추가
@@ -99,6 +99,7 @@ https://github.com/user-attachments/assets/735ac9b8-49ab-46e7-b44b-df35ca2850a4
 - 빈레벨 생성
 - 시작 Level의 빈 레벨이 Begin Play 되면 인게임 이미지와 Start 버튼 표출
 - Start 버튼 누르면 처음 시작맵으로 이동
+---
 
 ### 시작 및 엔딩 추가
 #### 처음 시작 추가
@@ -135,7 +136,7 @@ https://github.com/user-attachments/assets/735ac9b8-49ab-46e7-b44b-df35ca2850a4
 - 수집품 수집 시 문 열림 및 열리는 소리 적용
 - 최종 문 앞 Collision Box 충돌 시 3초 뒤 The End? 텍스트 표출 
 
-
+---
 ### 문제해결 과정
 
 #### 수집품 모두 수집 시 카메라 View가 문쪽으로 이동할 때 못 도망치는 상황 발생
