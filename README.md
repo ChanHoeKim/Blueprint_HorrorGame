@@ -2,7 +2,7 @@
 
 https://github.com/user-attachments/assets/735ac9b8-49ab-46e7-b44b-df35ca2850a4
 
-<플레이 영상_스킵_엔딩> -> 소리 나오는 버전 : https://drive.google.com/file/d/1cv4aG5kUBNL8cWOW5KC5xKcXTDa4SWsk/view?usp=sharing
+<플레이 영상_클리어> -> 소리 나오는 버전 : https://drive.google.com/file/d/1cv4aG5kUBNL8cWOW5KC5xKcXTDa4SWsk/view?usp=sharing
 
 
 https://github.com/user-attachments/assets/6e9e627d-968f-4272-86ce-2b1505e19a61
